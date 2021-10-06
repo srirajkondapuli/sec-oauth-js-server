@@ -1,19 +1,19 @@
 {
   "name": "sec-oauth-js-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sample Node Library",
   "types": "lib/index.d.ts",
   "main": "index.js",
   "author": "",
-  "keywords": "",
+  "keywords": [],
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
     "format": "prettier --write \"src/**/*.ts\" ",
     "lint": "tslint -p tsconfig.json"
   },
@@ -21,8 +21,6 @@
     "type": "git",
     "url": "git+https://github.com/srirajkondapuli/sec-oauth-js-server.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/srirajkondapuli/sec-oauth-js-server/issues"
@@ -40,5 +38,4 @@
   "files": [
     "lib/**/*"
   ]
-  
 }

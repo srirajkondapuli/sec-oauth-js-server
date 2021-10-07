@@ -1,9 +1,9 @@
 {
   "name": "sec-oauth-js-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sample Node Library",
   "types": "lib/index.d.ts",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "",
   "keywords": [],
   "scripts": {
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/srirajkondapuli/sec-oauth-js-server#readme",
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/jest": "^27.0.2",
     "jest": "^27.2.4",
     "prettier": "^2.4.1",
@@ -37,5 +38,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "log4js": "^6.3.0"
+  }
 }

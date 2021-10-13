@@ -1,0 +1,32 @@
+{
+    "roles": [
+      {
+        "name": "Slack_Users_S",
+        "permissions": {
+          "methods": ["GET", "POST", "PUT", "DELETE"],
+          "path": "introspection"
+        }
+      },
+      {
+        "name": "Slack_Users_S",
+        "permissions": {
+          "methods": ["GET", "POST", "PUT", "DELETE"],
+          "path": "userinfo"
+        }
+      },
+      {
+        "name": "lineplanner_user_s",
+        "permissions": {
+          "methods": ["GET", "POST","PUT","DELETE"],
+          "path": "introspection"
+        }
+      },
+      {
+        "name": "lineplanner_user_s",
+        "permissions": {
+          "methods": ["GET", "POST","PUT","DELETE"],
+          "path": "userinfo"
+        }
+      }
+    ]
+  }

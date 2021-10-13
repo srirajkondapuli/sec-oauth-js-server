@@ -52,7 +52,6 @@
     "jsonwebtoken": "^8.5.1",
     "jwks-rsa": "^2.0.4",
     "log4js": "^6.3.0",
-    "sec-oauth-js-server": "^1.0.21",
     "xregexp": "^5.1.0"
   }
 }
